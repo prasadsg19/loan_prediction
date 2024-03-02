@@ -31,4 +31,4 @@ def loan_prediction():
     return render_template('index.html', prediction_result=final[result])
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=1002,debug=False)
+    app.run(host='0.0.0.0',port=9091,debug=False)
